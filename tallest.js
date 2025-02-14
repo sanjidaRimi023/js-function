@@ -12,13 +12,13 @@ console.log('the array is :', getMax);
 const number = [12, 32, 45, 54, 57, 87, 53, 45];
 
 function maxnum(number){
-    let maxnum = number[0];
+    let max = number[0];
     for(const num of number){
-        if(num > maxnum){
-            maxnum = num;
+        if(num > max){
+            max = num;
         }
     }
-    return maxnum;
+    return max;
 }
 const topmax = maxnum(number);
 console.log('the max number is :', topmax);
